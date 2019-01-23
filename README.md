@@ -12,4 +12,5 @@ Sistema de vendas desenvolvido em Angular &amp; Spring
 ### Comandos importantes para o projeto no Angular
 
 | Código                             | Função                       |
+| ---------------------------------- |:----------------------------:|
 | `ng new "nome_do_projeto_Angular"` | Cria um novo projeto Angular |
