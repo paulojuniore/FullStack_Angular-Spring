@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VendasListagemComponent implements OnInit {
 
+  vendas: Array<any>;
+
   constructor() { }
 
   ngOnInit() {
