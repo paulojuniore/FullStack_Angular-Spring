@@ -5,6 +5,7 @@ import { TableModule } from 'primeng/table';
 import { HttpClientModule } from '@angular/common/http';
 import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
+import { DropdownModule } from 'primeng/dropdown';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -26,6 +27,7 @@ registerLocaleData(localePt);
     BrowserAnimationsModule,
     TableModule,
     HttpClientModule,
+    DropdownModule,
     AppRoutingModule
   ],
   providers: [
