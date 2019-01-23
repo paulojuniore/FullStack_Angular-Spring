@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { TableModule } from 'primeng/table';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,6 +19,7 @@ import { VendasListagemComponent } from './vendas-listagem/vendas-listagem.compo
     BrowserModule,
     BrowserAnimationsModule,
     TableModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
