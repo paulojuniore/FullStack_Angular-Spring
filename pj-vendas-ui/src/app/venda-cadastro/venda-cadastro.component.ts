@@ -18,6 +18,8 @@ export class VendaCadastroComponent implements OnInit {
 
   ngOnInit() {
     this.vendaService.listarClientes().subscribe(response => this.clientes = response);
+
+    this.vendaService.listarProdutos().subscribe(response => this.produtos = response);
   }
 
 }
