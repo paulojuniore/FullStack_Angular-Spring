@@ -1,6 +1,6 @@
 # FullStack Angular & Spring
 
-Sistema de vendas desenvolvido em Angular &amp; Spring
+Sistema de vendas desenvolvido com Angular &amp; Spring *Framework*
 
 ### Dependências utilizadas para construção da API
 
