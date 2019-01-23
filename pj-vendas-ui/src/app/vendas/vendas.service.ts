@@ -12,7 +12,7 @@ export class VendasService {
   constructor(private http: HttpClient) { }
 
   listar(): Observable<any> {
-    return this.http.get<any>(`${this.api}/vendas `);
+    return this.http.get<any>(`${this.api}/vendas`);
   }
 
 }
