@@ -9,8 +9,8 @@ import { VendasService } from '../vendas/vendas.service';
 })
 export class VendaCadastroComponent implements OnInit {
 
-  venda = {};
-  item = {};
+  venda = { itens: [] };
+  item: any = {};
   clientes: Array<any>;
   produtos: Array<any>;
 
@@ -20,6 +20,14 @@ export class VendaCadastroComponent implements OnInit {
     this.vendaService.listarClientes().subscribe(response => this.clientes = response);
 
     this.vendaService.listarProdutos().subscribe(response => this.produtos = response);
+  }
+
+  incluirItem() {
+    this.item.total = (this.item.produto.valor * this.item.quantidade);
+
+    this.venda.itens.push(this.item);
+
+    this.item = {};
   }
 
 }

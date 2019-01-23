@@ -11,6 +11,7 @@ import { TableModule } from 'primeng/table';
 import { DropdownModule } from 'primeng/dropdown';
 import { InputTextModule } from 'primeng/inputtext';
 import { PanelModule } from 'primeng/panel';
+import { ButtonModule } from 'primeng/button';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -37,6 +38,7 @@ registerLocaleData(localePt);
     DropdownModule,
     InputTextModule,
     PanelModule,
+    ButtonModule,
     AppRoutingModule
   ],
   providers: [
