@@ -77,5 +77,11 @@
         </div>
       </p-panel>
     </div>
+
+    <div class="ui-g-4 ui-fluid">
+      <label>Total da compra</label>
+      <input pInputText readOnly [value]="venda.total | number:'1.2-2'" />
+
+    </div>
   </div>
 </form>
