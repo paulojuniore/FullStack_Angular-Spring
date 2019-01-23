@@ -2,7 +2,7 @@
 
 Sistema de vendas desenvolvido em Angular &amp; Spring
 
-### Dependências utilizadas
+### Dependências utilizadas para construção da API
 
 - [x] Web
 - [x] JPA (Spring Data JPA)
