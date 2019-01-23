@@ -9,7 +9,10 @@ import { VendasService } from '../vendas/vendas.service';
 })
 export class VendaCadastroComponent implements OnInit {
 
+  venda = {};
+  item = {};
   clientes: Array<any>;
+  produtos: Array<any>;
 
   constructor(private vendaService: VendasService) { }
 
