@@ -19,3 +19,7 @@ Sistema de vendas desenvolvido com Angular &amp; Spring *Framework*
 | `ng generate service nome_do_servico_Angular --spec=false` | Cria uma classe de Serviço Angular para comunicação com a API     |
 | `npm install ng2-currency-mask --save`                     | Instala o módulo para inserção de máscara de formatação monetária |
 | `npm start`                                                | Inicia o servidor HTTP na porta 4200                              |
+
+### Testes do sistema
+
+![Sistema sem itens adicionados a uma venda](https://github.com/paulojuniore/FullStack_Angular-Spring/blob/master/pj-vendas-ui/src/assets/imagens/Captura%20de%20tela%202019-01-25%2011.31.19.png "Sistema sem itens adicionados a uma venda")
