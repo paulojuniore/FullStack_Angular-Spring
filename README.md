@@ -8,6 +8,7 @@ Sistema de vendas desenvolvido com Angular &amp; Spring *Framework*
 - [x] JPA (Spring Data JPA)
 - [x] DevTools 
 - [x] H2 (Banco de dados em memória)
+- [x] PrimeFaces FrameWork
 
 ### Comandos importantes para este projeto na parte Angular
 
